@@ -9,11 +9,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/react-dom": "^19.1.6",
     "typescript": "~5.8.3",
     "vite": "^6.3.5"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.80.6",
+    "@tanstack/react-query-devtools": "^5.80.6",
     "axios": "^1.9.0",
     "formik": "^2.4.6",
     "modern-normalize": "^3.0.1",

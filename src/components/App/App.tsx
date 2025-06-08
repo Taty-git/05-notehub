@@ -38,8 +38,8 @@ export default function App() {
         <div className={css.app}>
 	        <header className={css.toolbar}>
                 <SearchBox query={query} updateQuery={updateQuery}/>
-                    {data?.totalPages && 
-                    data.totalPages > 1 && 
+                    {(data?.totalPages && 
+                    data.totalPages > 1) && 
                 <Pagination 
                     page={page} 
                     totalPages={data?.totalPages}
