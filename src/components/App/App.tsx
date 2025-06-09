@@ -31,6 +31,7 @@ export default function App() {
 
     const updateQuery = (event: React.ChangeEvent<HTMLInputElement>) => {
         setQuery(event.target.value);
+        setPage(1); 
     };
     
 
